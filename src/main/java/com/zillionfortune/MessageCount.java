@@ -1,5 +1,3 @@
-package com.zillionfortune;
-
 import com.alibaba.otter.canal.protocol.CanalEntry;
 import org.omg.CORBA.INTERNAL;
 
@@ -17,7 +15,7 @@ public class MessageCount {
      *
      * @param columnList
      * @param mysqlCon
-     * @param businessType 3表示马上贷 4表示资民
+     * @param businessType 
      */
     public void assetAdd2FutureAssetSituation(List<CanalEntry.Column> columnList,Connection mysqlCon,int businessType,int flowDirection){
 
